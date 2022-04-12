@@ -4,7 +4,7 @@ body {
     color: #0f141e;
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /*подключили импортом*/
 
     /* аналог вышеописанного это:
     font: normal 16px 'Roboto', sans-serif;*/
@@ -41,4 +41,9 @@ h2 {
 .container {
         max-width: 750px;
         margin: auto;
+}
+
+.list a{
+    color: rgba(38, 216, 59, 0.663);
+    font-style: italic;
 }
